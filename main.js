@@ -21,12 +21,12 @@ function add() {
 }
 
 function uploadBackground() {
-	ctx.drawimage(background_imageTag, 0, 0, canvas.width, canvas.height);
+	ctx.drawImage(background_imageTag, 0, 0, canvas.width, canvas.height);
 
 }
 
 function uploadgreencar() {
-	ctx.drawimage(greencar_imageTag, greencar_x, greencar_y, greencar_width, greencar_height);
+	ctx.drawImage(greencar_imageTag, greencar_x, greencar_y, greencar_width, greencar_height);
 
 	
 }
